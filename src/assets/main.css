@@ -6,10 +6,10 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   
   font-weight: normal;
-
+  transition: 0.03s;
   background: hsl(60, 100%, 94%);
   min-height: 100vh;
 }
@@ -17,10 +17,11 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(90, 100%, 85%, 1);
-  transition: 0.4s;
+  color: hsla(260, 100%, 90%, 1);
+  transition: 1s;
   /* display: inline-block; */
   padding: 0.5em;
+  font-size: 0.8rem;
 }
 
 @media (hover: hover) {
