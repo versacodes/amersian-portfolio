@@ -26,8 +26,8 @@
     </section>
   </main>
 
-  <section class="py-6">
-    <h1 class="text-2xl font-bold text-center text-zinc-900">My Projects</h1>
+  <section class="py-9">
+    <h1 class="text-2xl font-bold text-center mb-2 text-zinc-900">My Projects</h1>
     <div>
         <!-- the div below should loop over my projects later -->
         <div class="hover:scale-[1.03] py-4 px-6 flex flex-col justify-center items-center">
@@ -41,6 +41,20 @@
             </div>
         </div>
     </div>
+  </section>
+  
+  <section class="bg-neutral-50 py-9">
+    <h1 class="text-center text-2xl font-bold text-zinc-800">Contact Me</h1>
+    <form class="px-4 py-2 mt-5">
+        <input type="email"
+               placeholder="Enter your email"
+               class="p-3 mb-2"
+               required>
+        <textarea class="py-4 px-3 resize-none w-[100%] h-[10rem]"
+                  placeholder="Enter your message"></textarea>
+        <input class="mt-2 py-3 px-4 bg-orange-400 font-bold"
+               type="submit">
+    </form>
   </section>
 </template>
 
