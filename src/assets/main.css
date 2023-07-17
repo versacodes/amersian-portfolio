@@ -9,7 +9,7 @@
   /* padding: 2rem; */
   
   font-weight: normal;
-  transition: 0.03s;
+  transition: 1s;
   background: hsl(60, 100%, 94%);
   min-height: 100vh;
 }
@@ -17,7 +17,7 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(260, 100%, 90%, 1);
+  color: white;
   transition: 1s;
   /* display: inline-block; */
   padding: 0.5em;

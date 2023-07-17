@@ -18,11 +18,11 @@
         Hi, my name is<br>
         <span class="text-zinc-900 mt-1 inline-block font-bold leading-8 text-3xl">Franz Amersian Tiongson.</span>
       </h1>
-      <p class="mt-4 text-center text-zinc-700 mx-auto text-sm w-[12rem]">
+      <p class="mt-4 text-center text-zinc-700 mx-auto text-[0.8rem] w-[12rem]">
         I'm a
         <span class="underline font-bold text-zinc-700">Vue.js Front End Developer</span>
       </p>
-      <button class="bg-red-500 text-sm text-white font-bold p-3 mt-5 mx-auto block">My Projects</button>
+      <button class="bg-orange-400 text-sm text-white font-bold p-3 mt-5 mx-auto block">My Projects</button>
     </section>
   </main>
 
@@ -52,7 +52,7 @@
                required>
         <textarea class="py-4 px-3 resize-none w-[100%] h-[10rem]"
                   placeholder="Enter your message"></textarea>
-        <input class="mt-2 py-3 px-4 bg-orange-400 font-bold"
+        <input class="mt-2 text-white py-3 px-4 bg-orange-400 font-bold"
                type="submit">
     </form>
   </section>
