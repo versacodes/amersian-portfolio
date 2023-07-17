@@ -25,7 +25,23 @@
       <button class="bg-red-500 text-sm text-white font-bold p-3 mt-5 mx-auto block">My Projects</button>
     </section>
   </main>
-  
+
+  <section class="py-6">
+    <h1 class="text-2xl font-bold text-center text-zinc-900">My Projects</h1>
+    <div>
+        <!-- the div below should loop over my projects later -->
+        <div class="hover:scale-[1.03] py-4 px-6 flex flex-col justify-center items-center">
+            <!-- just temporary image for now -->
+            <img src="./assets/plant4.jpg"
+                 alt="Project"
+                 class="h-[16rem] w-[100%]">
+            <div class="text-center bg-blue-950 p-6">
+                <h1 class="text-xl text-white font-semibold mb-4">Ecommerce Store</h1>
+                <p class="text-sm text-neutral-100 leading-6">Integer ultricies malesuada quam. Duis ac nulla varius diam ultrices rutrum.</p>
+            </div>
+        </div>
+    </div>
+  </section>
 </template>
 
 <style scoped>
