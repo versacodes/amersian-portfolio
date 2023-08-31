@@ -3,10 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  transition: 0.5s;
-}
-
 #app {
   max-width: 1280px;
   margin: 0 auto;
